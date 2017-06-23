@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<!-- 配置別名 -->
+	<typeAliases>
+
+		<!-- 批量掃描別名 -->
+		<package name="cn.wzx.entity" />
+	</typeAliases>
+	<!-- 配置mapper 由於使用spring和mybatis的整合包進行mapper掃描，這裏不需要配置。 需要遵循規則：mapper.xml文件和mapper.java文件同名且在一個目錄 -->
+</configuration>
